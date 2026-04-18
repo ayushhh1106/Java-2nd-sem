@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class array3 {
    public static void printArray(double Ayush[]){
-    Ayush[0] = 100022222.511222;
+    Ayush[0] = 10.5;
     // Arrays as mutable - change in method will reflect in original array
        for (double ele : Ayush){
            System.out.println(ele);
