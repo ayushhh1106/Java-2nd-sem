@@ -10,9 +10,9 @@ public class string1 {
         // String comparison - return boolean value
         System.out.println(s1.equals(s2)); // true, because they have the same content
         //check admin login
-        String username = "admin";
-        String password = "Ayush123";
-        // Scanner sc = new Scanner(System.in);
+        String username = "Ayush Sharma";
+        String password = "Ayush1310";
+        // Scanner sc = new Scanner(System.in); 
         // String user = sc.nextLine();
         // String pass = sc.nextLine();
         // if (username.equals(user) && password.equals(pass)) {
@@ -39,5 +39,32 @@ public class string1 {
         for (int i = 0; i < str1.length(); i++) {
             System.out.println(str1.charAt(i)); 
         }
+        //mutable string 
+        StringBuilder Strd = new StringBuilder("hello");
+        // StringBuffer strf = new StringBuffer("Ayusshhhhhh");
+        //methods 
+        //append - add to the end of the string -returns the same object
+        Strd.append(" Ayush");
+        System.out.println(Strd); // hello Ayush
+        //insert - add at a specific position
+        Strd.insert(5, "ji ");
+        System.out.println(Strd); // Hello hello Ayush
+        // delete - remove a part of the string
+        Strd.delete(2, 5); // delete characters from index 2 to 5
+        System.out.println(Strd); // Heji hello Ayush
+        // replace - replace a part of the string with another string
+        Strd.replace(2,5, "yAyush"); // replace characters from index 2 to 5 with "yush"
+        System.out.println(Strd); // Heyush hello Ayush
+        // reverse - reverse the string 
+        System.out.println(Strd.reverse()); // hsuyA olleh hsuyA
+        // question. take input from user as a string and reverse it
+        // convert to string builder and reverse it
+        // then return your ans as a string
+        String inp = "Ayush Sharma";
+        StringBuilder sb1 = new StringBuilder(inp); //this is imp step
+        sb1.reverse();
+        String ans = sb1.toString();
+
+
     }
 }
