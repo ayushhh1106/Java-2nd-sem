@@ -53,7 +53,7 @@ public class string1 {
         Strd.delete(2, 5); // delete characters from index 2 to 5
         System.out.println(Strd); // Heji hello Ayush
         // replace - replace a part of the string with another string
-        Strd.replace(2,5, "yAyush"); // replace characters from index 2 to 5 with "yush"
+        Strd.replace(2,5, "yyyyyAyush"); // replace characters from index 2 to 5 with "yush"
         System.out.println(Strd); // Heyush hello Ayush
         // reverse - reverse the string 
         System.out.println(Strd.reverse()); // hsuyA olleh hsuyA
