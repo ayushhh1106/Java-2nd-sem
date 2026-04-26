@@ -64,7 +64,6 @@ public class string1 {
         StringBuilder sb1 = new StringBuilder(inp); //this is imp step
         sb1.reverse();
         String ans = sb1.toString();
-
-
+        ans.toCharArray(); // convert string to char array
     }
 }
