@@ -1,7 +1,8 @@
 class person{
-     static class student{
-
-    }
+    //  static class student{
+    // to create a static class we need a nested claas
+    // where the inner class can only be static
+    // }
     static int count = 0;
 
     person(){
